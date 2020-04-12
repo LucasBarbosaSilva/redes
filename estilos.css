@@ -1,0 +1,42 @@
+.menu{
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    background: black;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+
+nav a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 5px;
+    background: transparent;
+    border: 1px solid #ccc;
+    color: #ccc;
+    font-family: Open Sans;
+}
+body{
+    background: rgb(131, 160, 240);
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    color: white;
+
+}
+
+.content{
+    margin: 10px;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(0, 0, 0);
+}
